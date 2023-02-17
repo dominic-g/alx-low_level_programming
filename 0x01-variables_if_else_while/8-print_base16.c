@@ -11,9 +11,9 @@
 
 int main(void)
 {
-	int digit = 48; 
+	int digit = 48;
 
-	while (digit <= 102) 
+	while (digit <= 102)
 	{
 		putchar(digit);
 
