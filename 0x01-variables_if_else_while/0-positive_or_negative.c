@@ -3,6 +3,14 @@
 #include <stdio.h>
 
 
+/**
+ * main - Main Function
+ *
+ * Description: return if number is zero, positive or negative
+ *
+ * Return: Always 0 (Pass)
+*/
+
 int main(void)
 {
 	int n;
