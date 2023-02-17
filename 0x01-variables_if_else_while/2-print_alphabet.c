@@ -3,7 +3,7 @@
 /**
  * main - MAin Function
  *
- * Description: program that prints the alphabet in lowercase, followed by a new line.
+ * Description: program that prints the alphabet in lowercase, then a new line.
  *
  * Return: Always 0 (Pass)
 */
