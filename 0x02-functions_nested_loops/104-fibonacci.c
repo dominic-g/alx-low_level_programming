@@ -1,28 +1,26 @@
 #include <stdio.h>
 /*
-*First 50 Fibonacci Numbers
+*First 98 Fibonacci Numbers
 *
 */
 int main(){
 	int first, second, i;
 
-	first = 0; second = 0;
+	first = 2; second = 1;
 
 	i = 0;
 
-	while(i < 48){
+	printf("%d, %d, ",second, first);
+	while(i < 96){
 		int fib = first + second;
 		printf("%d", fib);
 
-
-		if(i < 47)
+		if(i < 95)
 			printf(", ");
 
 		second = first;
-		if(first == 0)
-			first = 1;
-		else
-			first = fib;
+		first = fib;
+
 		++i;
 	}
 

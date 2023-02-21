@@ -11,6 +11,7 @@ int main(){
 	fib = first + second;
 
 
+	printf("%d\n%d\n",second, first);
 	while(fib <= 4000000){
 		fib = first + second;
 		if((first % 2) == 0 && (second % 2) == 0)
