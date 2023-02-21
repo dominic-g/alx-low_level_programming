@@ -3,7 +3,8 @@
 /*
 *Print the lastDigit
 */
-int print_last_digit(int i){
+int print_last_digit(int i)
+{
 	int lastDigit;
 
 	if (i < 0)

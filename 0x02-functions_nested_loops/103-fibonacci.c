@@ -3,7 +3,8 @@
 *Even Fibonacci Numbers
 *
 */
-int main(){
+int main(void)
+{
 	int first, second, fib;
 
 	first = 2; second = 1;

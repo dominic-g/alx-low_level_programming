@@ -2,7 +2,8 @@
 /*
 *Natural
 */
-int main(){
+int main(void)
+{
 	int sum = 0;
 	int i;
 

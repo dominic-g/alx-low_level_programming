@@ -3,7 +3,8 @@
 *First 50 Fibonacci Numbers
 *
 */
-int main(){
+int main(void)
+{
 	int first, second, i;
 
 	first = 0; second = 0;

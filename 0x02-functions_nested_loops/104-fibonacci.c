@@ -3,7 +3,8 @@
 *First 98 Fibonacci Numbers
 *
 */
-int main(){
+int main(void)
+{
 	int first, second, i;
 
 	first = 2; second = 1;

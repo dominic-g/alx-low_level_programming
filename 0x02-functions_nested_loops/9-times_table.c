@@ -4,7 +4,8 @@
 *Times  Table
 *
 */
-void times_table(void){
+void times_table(void)
+{
 	int row , column;
 
 	for(row = 0;row < 10; ++row){
