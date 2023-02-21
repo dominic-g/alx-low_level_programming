@@ -33,16 +33,17 @@ void print_times_table(int n)
  *
  * @row: integer
  * @column: integer
- * @n: integer 
+ * @n: integer
  *
  * Description: check the code.
  *
  * Return: Always 0 (Success)
 */
-void additional (int row, int column, int n){
+void additional(int row, int column, int n)
+{
 	int prd = row * column;
 	int prd_ = row * column;
-	
+
 	if (column > 0)
 	{
 		if (prd >= 100)
