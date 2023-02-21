@@ -1,7 +1,8 @@
 #include "main.h"
 /*
-*Jack Bauer minutes
+* jack_bauer minutes
 *
+* return (0) pass
 */
 
 void jack_bauer(void)

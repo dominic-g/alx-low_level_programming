@@ -1,6 +1,6 @@
 #include "main.h"
 /*
-*Absolute
+* Absolute
 */
 int _abs(int i)
 {

@@ -1,7 +1,10 @@
 #include "main.h"
 
 /*
-*Advanced Times table
+ * Advanced Times table
+ * print_times_table - check the code.
+ *
+ * Return: Always 0.
 */
 
 void print_times_table(int n)

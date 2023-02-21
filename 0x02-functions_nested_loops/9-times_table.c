@@ -1,8 +1,10 @@
 #include "main.h"
 
 /*
-*Times  Table
-*
+ * Times  Table
+ * times_table - check the code.
+ *
+ * Return: Always 0.
 */
 void times_table(void)
 {

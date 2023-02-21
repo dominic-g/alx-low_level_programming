@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*is alphabets (lowercase and uppercase)
+* is alphabets (lowercase and uppercase)
 */
 int _isalpha(int c)
 {
