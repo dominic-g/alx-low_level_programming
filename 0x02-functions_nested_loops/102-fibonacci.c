@@ -30,6 +30,7 @@ int main(void)
 		first = fib;
 		++i;
 	}
+	printf("\n");
 
 	return (0);
 }
