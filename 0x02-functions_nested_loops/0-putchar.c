@@ -9,8 +9,8 @@ int main(){
 	int i;
 
 	for (i = 0; i < 8; ++i)
-		printchar(txt[i]);
+		_putchar(txt[i]);
 
-	printchar('\n');
+	_putchar('\n');
 	return 0;
 }
