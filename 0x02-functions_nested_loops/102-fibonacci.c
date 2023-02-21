@@ -10,13 +10,15 @@ int main(void)
 {
 	int first, second, i;
 
-	first = 0; second = 0;
+	first = 0;
+	second = 0;
 
 	i = 0;
 
 	while (i < 48)
 	{
 		int fib = first + second;
+
 		printf("%d", fib);
 
 

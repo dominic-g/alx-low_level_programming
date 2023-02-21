@@ -10,12 +10,13 @@ int main(void)
 {
 	int first, second, fib;
 
-	first = 2; second = 1;
+	first = 2;
+	second = 1;
 
 	fib = first + second;
 
 
-	printf ("%d\n%d\n", second, first);
+	printf("%d\n%d\n", second, first);
 	while (fib <= 4000000)
 	{
 		fib = first + second;

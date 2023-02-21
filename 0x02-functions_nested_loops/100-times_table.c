@@ -15,6 +15,7 @@ void print_times_table(int n)
 	if (n >= 0 && n <= 15)
 	{
 		int row, column;
+
 		for (row = 0; row <= n; ++row)
 		{
 			for (column = 0; column <= n; ++column)
@@ -53,9 +54,7 @@ void print_times_table(int n)
 					prd -= (prd / 10) * 10;
 				}
 				else if (prd_ >= 100)
-				{
 					_putchar(48);
-				}
 
 				_putchar((prd + 48));
 				if (column != n)
