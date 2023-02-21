@@ -15,3 +15,4 @@ int print_last_digit(int i)
 	_putchar(lastDigit + '0');
 	return (lastDigit);
 }
+
