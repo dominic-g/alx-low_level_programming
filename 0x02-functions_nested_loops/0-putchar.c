@@ -1,7 +1,7 @@
 #include"main.h"
 
 /*
- * Printing _putchar
+ * main - Printing _putchar
  *
  * Description - check the code.
  *
