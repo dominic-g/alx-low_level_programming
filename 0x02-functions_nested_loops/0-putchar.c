@@ -1,9 +1,11 @@
 #include"main.h"
 
 /*
-* Printing _putchar
-*
-* Return: Always 0.
+ * Printing _putchar
+ *
+ * Description - check the code.
+ *
+ * Return: Always 0 (Success)
 */
 int main(void)
 {

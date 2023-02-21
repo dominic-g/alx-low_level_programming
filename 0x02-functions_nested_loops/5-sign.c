@@ -1,7 +1,10 @@
 #include "main.h"
 
 /*
-* Printing sign of the number
+ *
+ * Description - check the code.
+ *
+ * Return: Always 0 (Success)
 */
 
 int print_sign(int n)

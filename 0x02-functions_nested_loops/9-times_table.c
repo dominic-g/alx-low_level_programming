@@ -2,9 +2,10 @@
 
 /*
  * Times  Table
- * times_table - check the code.
  *
- * Return: Always 0.
+ * Description - check the code.
+ *
+ * Return: Always 0 (Success)
 */
 void times_table(void)
 {

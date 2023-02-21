@@ -1,9 +1,10 @@
 #include <stdio.h>
 /*
- *Natural
- * main - check the code.
+ * main - Natural
  *
- * Return: Always 0.
+ * Description - check the code.
+ *
+ * Return: Always 0 (Success)
 */
 int main(void)
 {

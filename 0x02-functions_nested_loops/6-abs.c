@@ -1,6 +1,9 @@
 #include "main.h"
 /*
-* Absolute
+ *
+ * Description - check the code.
+ *
+ * Return: Always 0 (Success)
 */
 int _abs(int i)
 {

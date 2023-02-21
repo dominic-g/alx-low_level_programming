@@ -1,8 +1,10 @@
 #include "main.h"
 /*
-* jack_bauer minutes
-*
-* return (0) pass
+ * jack_bauer minutes
+ *
+ * Description - check the code.
+ *
+ * Return: Always 0 (Success)
 */
 
 void jack_bauer(void)

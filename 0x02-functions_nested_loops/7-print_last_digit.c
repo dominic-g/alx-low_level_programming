@@ -1,7 +1,11 @@
 #include "main.h"
 
 /*
-* Print the lastDigit
+ * Print the lastDigit
+ *
+ * Description - check the code.
+ *
+ * Return: Always 0 (Success)
 */
 int print_last_digit(int i)
 {

@@ -1,7 +1,10 @@
 #include <stdio.h>
 /*
-*Even Fibonacci Numbers
-*
+ * main - Even Fibonacci Numbers
+ *
+ * Description: prints fibonacci numbers below 4m
+ *
+ * Return: Always 0 (Success)
 */
 int main(void)
 {

@@ -1,6 +1,10 @@
 #include "main.h"
 /**
-* is alphabets (lowercase and uppercase)
+ * is alphabets (lowercase and uppercase)
+ *
+ * Description - check the code.
+ *
+ * Return: Always 0 (Success)
 */
 int _isalpha(int c)
 {
