@@ -1,7 +1,9 @@
 #include "main.h"
 
-/*
- * Print the lastDigit
+/**
+ * print_last_digit - Print the lastDigit
+ *
+ * @i: integer
  *
  * Description: check the code.
  *
@@ -16,7 +18,7 @@ int print_last_digit(int i)
 	else
 		lastDigit = i % 10;
 
-	_putchar(lastDigit + '0');
+	_putchar (lastDigit + '0');
 	return (lastDigit);
 }
 

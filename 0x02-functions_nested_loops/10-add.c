@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- * Adding
  * add - check the code.
+ * @a: int
+ * @b: int
  *
  * Description: check the code.
  *
@@ -12,6 +12,6 @@
 
 int add (int a, int b)
 {
-	return a + b;
+	return (a + b);
 }
 

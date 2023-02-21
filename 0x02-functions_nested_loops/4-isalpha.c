@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * is alphabets (lowercase and uppercase)
+ * _isalpha - (lowercase and uppercase)
+ *
+ * @c: checks input of function
  *
  * Description: check the code.
  *

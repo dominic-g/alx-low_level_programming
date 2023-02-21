@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - check the code.
  *
  * Description: prints fibonnaci
@@ -14,22 +14,23 @@ int main(void)
 
 	i = 0;
 
-	while(i < 48){
+	while (i < 48)
+	{
 		int fib = first + second;
 		printf("%d", fib);
 
 
-		if(i < 47)
+		if (i < 47)
 			printf(", ");
 
 		second = first;
-		if(first == 0)
+		if (first == 0)
 			first = 1;
 		else
 			first = fib;
 		++i;
 	}
 
-	return 0;
+	return (0);
 }
 

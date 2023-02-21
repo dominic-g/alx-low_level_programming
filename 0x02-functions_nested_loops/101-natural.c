@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - Natural
  *
  * Description: check the code.
@@ -11,15 +11,13 @@ int main(void)
 	int sum = 0;
 	int i;
 
-	for(i = 0; i < 1024; i++){
-		if((i % 3) == 0){
+	for (i = 0; i < 1024; i++)
+	{
+		if ((i % 3) == 0 || (i % 5) == 0)
 			sum += i;
-		}else if((i % 5) == 0){
-			sum += i;
-		}
 	}
 
 	printf("%d\n", sum);
-	return 1;
+	return (0);
 }
 

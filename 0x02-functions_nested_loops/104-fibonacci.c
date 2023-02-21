@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - First 98 Fibonacci Numbers
  *
  * Description: prints 98 fibonacci numbers
@@ -14,12 +14,13 @@ int main(void)
 
 	i = 0;
 
-	printf("%d, %d, ",second, first);
-	while(i < 96){
+	printf ("%d, %d, ", second, first);
+	while (i < 96)
+	{
 		int fib = first + second;
 		printf("%d", fib);
 
-		if(i < 95)
+		if (i < 95)
 			printf(", ");
 
 		second = first;
@@ -28,6 +29,6 @@ int main(void)
 		++i;
 	}
 
-	return 0;
+	return (0);
 }
 

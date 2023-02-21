@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - Even Fibonacci Numbers
  *
  * Description: prints fibonacci numbers below 4m
@@ -15,10 +15,11 @@ int main(void)
 	fib = first + second;
 
 
-	printf("%d\n%d\n",second, first);
-	while(fib <= 4000000){
+	printf ("%d\n%d\n", second, first);
+	while (fib <= 4000000)
+	{
 		fib = first + second;
-		if((first % 2) == 0 && (second % 2) == 0)
+		if ((first % 2) == 0 && (second % 2) == 0)
 			printf("%d\n", fib);
 
 		second = first;
@@ -26,6 +27,6 @@ int main(void)
 		first = fib;
 	}
 
-	return 0;
+	return (0);
 }
 

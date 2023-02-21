@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * Checking if lower case
+ * _islower - Checking if lower case
+ *
+ * @c: checks input of function
  *
  * Description: check the code.
  *
@@ -9,6 +11,6 @@
 */
 int _islower(int c)
 {
-	return c >= 98 && c <=122;
+	return (c >= 98 && c <= 122);
 }
 
