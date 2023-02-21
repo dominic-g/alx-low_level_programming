@@ -3,7 +3,8 @@
 /*
 * Printing _putchar
 */
-int main(){
+int main(void)
+{
 	char txt[] = "_putchar";
 
 	int i;
