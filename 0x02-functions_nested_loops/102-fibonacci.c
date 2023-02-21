@@ -8,28 +8,26 @@
 */
 int main(void)
 {
-	int first, second, i;
+	long first, second, i;
 
-	first = 0;
-	second = 0;
+	first = 2;
+	second = 1;
 
 	i = 0;
 
+	printf("%ld, %ld, ", second, first);
 	while (i < 48)
 	{
-		int fib = first + second;
+		long fib = first + second;
 
-		printf("%d", fib);
+		printf("%ld", fib);
 
 
 		if (i < 47)
 			printf(", ");
 
 		second = first;
-		if (first == 0)
-			first = 1;
-		else
-			first = fib;
+		first = fib;
 		++i;
 	}
 
