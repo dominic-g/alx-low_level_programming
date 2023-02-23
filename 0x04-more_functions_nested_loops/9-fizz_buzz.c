@@ -6,8 +6,9 @@
  *       numbers that are multiples of 5 print Buzz
  *       numbers that are multiples of 3 n 5 print FizzBuzz
  *       each number and word to be separated by space
+ * Description: Description
  *
- * Return: Always 0 (Success)
+ * Return: always (0)
 */
 
 int main(void)

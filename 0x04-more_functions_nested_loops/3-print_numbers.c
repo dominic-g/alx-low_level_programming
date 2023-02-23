@@ -4,7 +4,9 @@
  * print_numbers - print 0 - 9
  *             only using _putchar twice
  *
- * Return: Always 0 (Success)
+ * Description: Description
+ *
+ * Return: always (0)
 */
 
 void print_numbers(void)

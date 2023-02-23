@@ -3,7 +3,9 @@
  *
  * @c: input
  *
- * Return: 1 if is digit, 0 if not
+ * Description: Description
+ *
+ * Return: always (0)
 */
 
 int _isdigit(int c)

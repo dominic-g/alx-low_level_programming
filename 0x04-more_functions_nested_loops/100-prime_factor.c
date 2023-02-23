@@ -4,6 +4,7 @@
  * _sqrt - finds the square root
  *
  * @x: input number
+ * Description: Description
  *
  * Return: square root of x
  *

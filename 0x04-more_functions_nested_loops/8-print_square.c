@@ -4,8 +4,9 @@
  * print_square - print a square using the character #
  *
  * @size: is the size of the square
+ * Description: Description
  *
- * Return: Always 0 (Success)
+ * Return: always (0)
 */
 
 void print_square(int size)

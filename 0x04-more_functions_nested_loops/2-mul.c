@@ -4,7 +4,9 @@
  * @a: first input
  * @b: second input
  *
- * Return: return results
+ * Description: Description
+ *
+ * Return: always (0)
 */
 
 int mul(int a, int b)
