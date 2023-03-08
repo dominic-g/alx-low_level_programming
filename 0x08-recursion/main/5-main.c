@@ -1,4 +1,4 @@
-#include "../holberton.h"
+#include "../main.h"
 #include <stdio.h>
 
 /**
@@ -21,6 +21,8 @@ int main(void)
 	r = _sqrt_recursion(25);
 	printf("%d\n", r);
 	r = _sqrt_recursion(-1);
+	printf("%d\n", r);
+	r = _sqrt_recursion(16777216);
 	printf("%d\n", r);
 	return (0);
 }
