@@ -5,7 +5,7 @@
  * flip_bits - convert bits from one num to another num
  * @num: number
  * @mun: another number
- * Return: bits number 
+ * Return: bits number
  */
 unsigned int flip_bits(unsigned long int num, unsigned long int mun)
 {

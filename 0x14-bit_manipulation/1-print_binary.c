@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * output_binary - output binary equivalent for a given number
+ * print_binary - output binary equivalent for a given number
  * @num: decimal number to print as binary
  */
-void output_binary(unsigned long int num)
+void print_binary(unsigned long int num)
 {
 	unsigned long int tmp;
 	int nf;

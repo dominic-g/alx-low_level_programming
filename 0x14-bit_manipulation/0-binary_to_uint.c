@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * bin_to_uns - convert a binary number to an unsigned int
+ * bin_to_uint - convert a binary number to an unsigned int
  * @n: char string
  * Return: converted decimal number or 0 if there is an unconvertable char
  */
-unsigned int bin_to_uns(const char *n)
+unsigned int bin_to_uint(const char *n)
 {
 	unsigned int ttl, pow;
 	int len;
