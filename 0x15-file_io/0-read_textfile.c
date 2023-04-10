@@ -10,48 +10,28 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-    int fd = -1;
-    ssize_t r = 0, w = 0;
-    char *buffer = NULL;
+	ssize_t op, re, wr;
+	char *b;
 
-    if (filename == NULL)
-        return 0;
+	if (filename == NULL)
+		return (0);
 
-    buffer = malloc(sizeof(char) * letters);
-    if (buffer == NULL)
-        return 0;
+	b = malloc(sizeof(char) * letters);
+	if (b == NULL)
+		return (0);
 
-    fd = open(filename, O_RDONLY);
-    if (fd == -1) {
-        perror("open");
-        free(buffer);
-        return 0;
-    }
+	op = open(filename, O_RDONLY);
+	re = read(op, b, letters);
+	wr = write(STDOUT_FILENO, b, re);
 
-    r = read(fd, buffer, letters);
-    if (r == -1) {
-        perror("read");
-        free(buffer);
-        close(fd);
-        return 0;
-    }
+	if (op == -1 || re == -1 || wr == -1 || wr != re)
+	{
+		free(b);
+		return (0);
+	}
 
-    w = write(STDOUT_FILENO, buffer, r);
-    if (w == -1) {
-        perror("write");
-        free(buffer);
-        close(fd);
-        return 0;
-    }
+	free(b);
+	close(op);
 
-    if (w != r) {
-        fprintf(stderr, "write: incomplete write\n");
-        free(buffer);
-        close(fd);
-        return 0;
-    }
-
-    free(buffer);
-    close(fd);
-    return w;
+	return (wr);
 }
