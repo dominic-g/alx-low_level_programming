@@ -1,5 +1,5 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef _SEARCHALGO_H_
+#define _SEARCHALGO_H_
 
 #include <stdlib.h>
 #include <stdio.h>
